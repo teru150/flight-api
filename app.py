@@ -15,7 +15,7 @@ with open('Top_50_Aircraft_Visual_Identification.csv', encoding='utf-8') as f:
         AIRCRAFT_DB.append(row)
 
 # --- 2) AviationStack configuration (for /flight and /nearbyairports) ---
-AVIATIONSTACK_KEY = os.environ.get('AVIATIONSTACK_KEY', '')
+AVIATIONSTACK_KEY = os.environ.get('AVIATIONSTACK_KEY', '4749f77fac737f1c613ea58453473d67')
 FLIGHTS_API_URL   = 'http://api.aviationstack.com/v1/flights'
 AIRPORTS_API_URL  = 'http://api.aviationstack.com/v1/airports'
 
